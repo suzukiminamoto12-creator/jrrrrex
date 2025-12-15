@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ScienceSphere | Learn Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0b3d91, #1e90ff);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h3 {
+            color: #0b3d91;
+            margin-top: 0;
+        }
+
+        footer {
+            background: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ScienceSphere</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index3.html">Physics</a>
+            <a href="index4.html">Chemistry</a>
+            <a href="index5.html">Biology</a>
+            <a href="index2.html">Astronomy</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Explore the World of Science</h2>
+        <p>
+            ScienceSphere is a professional educational platform dedicated to
+            explaining scientific concepts clearly, accurately, and engagingly.
+        </p>
+    </section>
+
+    <main class="container">
+        <div class="sections">
+            <div class="card">
+                <h3>Physics</h3>
+                <p>
+                    Learn about motion, energy, forces, space, and the laws that govern
+                    the universe—from classical mechanics to modern physics.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Chemistry</h3>
+                <p>
+                    Discover atoms, molecules, reactions, and the building blocks of matter
+                    that shape the world around us.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Biology</h3>
+                <p>
+                    Explore life sciences including cells, genetics, ecosystems,
+                    human anatomy, and evolution.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3><a href="index2.html" style="text-decoration: none; color: inherit;">Astronomy</a></h3>
+                <p>
+                    Study the universe, stars, and galaxies. <a href="index2.html">Click here</a> to view our Astronomy
+                    page.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Scientific Method</h3>
+                <p>
+                    Understand how scientists ask questions, form hypotheses,
+                    conduct experiments, and analyze results.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 ScienceSphere | Educational Science Website
+    </footer>
+
+</body>
+
+</html>
